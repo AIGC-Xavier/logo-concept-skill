@@ -1,121 +1,100 @@
 # Logo Concept Lab
 
-一个面向 Logo 创意发散与字母图形设计的 AI Agent skill。将参考学习、业务语义、共形／负形构思、视觉筛选和 Figma 交付连接起来。
+从品牌气质出发设计 Logo、中文与英文字标、有机图形及字母组合。先选择识别主体，再进行视觉探索与淘汰，选定后重建矢量并核对 Figma 交付。
 
-An AI Agent skill for logo ideation and letter-monogram design. It connects reference learning, business meaning, shared-contour and negative-space construction, visual evaluation, and Figma delivery.
+Design logos, Chinese/Latin wordmarks, organic marks, and monograms from brand character. Choose the source of recognition, explore and curate actual artwork, then rebuild selected concepts as vectors and verify Figma delivery.
 
-适合：新品牌 Logo 构思、参考视频方法拆解、两字母 Monogram、多方向视觉测试，以及“设计感不足”后的重新发散。
+## 设计方法 / Design approach
 
-Use it for new brand concepts, learning methods from reference videos, two-letter monograms, multi-direction visual tests, and developing stronger alternatives after a design-quality critique.
+围绕品牌需求建立双语设计流程：先判断识别主体，再探索形式、比较实际成图并精修。共形、负空间与字母融合按概念需要选用。
 
-## 核心能力 / Capabilities
+A bilingual workflow built around brand needs: establish the primary source of recognition, explore forms, compare actual artwork, and refine. Use shared contours, negative space, and letter fusion where the concept calls for them.
 
-- 从参考中提取构形方法，而不是复制成品。
-- 用共用轮廓、负空间、局部替换与笔画重组建立双重含义。
-- 支持指定字母的纯图形测试，尊重“不加字标／不展示文字”的要求。
-- 用黑白轮廓、光学平衡和缩小识别筛选，而非依赖样机包装。
-- 支持 Figma 可编辑矢量交付，并要求回读与渲染验证。
+- **先选形式**：字标、抽象图形、有机笔触或字母组合，取决于品牌怎样被记住。
+- **加强字标**：从字骨、字腔、关键笔画、重心和字间关系入手，区分安静与强表达。
+- **实际视觉筛选**：检查性格、识读与比例，修正或淘汰弱项；不靠长篇寓意和样机包装。
+- **交付后置**：先建立值得保留的视觉方向，再重建 SVG/Figma，避免为方便代码绘制而牺牲形式。
 
-- Extract construction methods from references rather than copying finished marks.
-- Build double meanings through shared contours, negative space, local substitution, and stroke recombination.
-- Support specified-letter symbol tests and respect requests for no wordmarks or extra text.
-- Evaluate monochrome silhouettes, optical balance, and small-size recognition instead of relying on mockup presentation.
-- Deliver editable vectors in Figma, with read-back and render verification.
+- **Form before technique:** choose lettering, abstraction, organic strokes, or monograms from how the brand should be remembered.
+- **Stronger lettering:** work with skeletons, counters, defining strokes, balance, and spacing; distinguish quiet and expressive treatments.
+- **Actual visual curation:** inspect character, reading, and proportion; refine or reject weak work rather than justify it with stories or mockups.
+- **Implementation after selection:** establish a worthwhile visual direction before SVG/Figma reconstruction, avoiding forms chosen merely because they are easy to code.
 
-## 安装到 Codex / Install in Codex
+保留指定字母、纯图形、既定字体和透明文件等用户要求。双语组合与延展系统按需制作。规则更新与结构校验不等于已证明所有出图达到参考案例水平。
 
-将此仓库下载到本地，把含有 `SKILL.md` 的目录复制为：
+Preserve user constraints such as exact initials, symbol-only output, approved type, and transparent files. Bilingual lockups and extended systems are optional. Revised instructions and structural checks do not establish reference-level visual performance for every output.
 
-Download the repository and copy the directory containing `SKILL.md` to:
+## 整合版的进一步调整 / Integrated workflow refinement
 
-```text
-~/.codex/skills/logo-concept-lab/SKILL.md
-```
+新概念先明确识别来源、可见结构、品牌依据与候选间差别；风格切换与组合变体按其实际性质呈现。安静气质允许清楚的比例与组织关系，不预设只能微调。参考需要转成具体可借鉴特征，并检查轮廓是否过近。修正按错字、普通字体感、候选雷同、光学平衡或参考近似分别处理，保留已成立的部分。字体与颜色变体任务仍按用户要求执行。
 
-如果设置了自定义 `CODEX_HOME`，使用其下的 `skills/logo-concept-lab` 目录。已有同名 skill 时先比较内容，再决定替换。
+For new concepts, establish the recognition source, visible structure, brand reason, and candidate differences. Identify style changes and lockup variants as such. Quiet character can support clear proportions and organizing relationships rather than only minor tweaks. Translate references into specific usable features and check for excessive resemblance. Route repairs by glyph accuracy, generic typesetting, similar candidates, optical balance, or reference proximity while preserving what works. Explicit type and color variant requests remain in scope.
 
-If you use a custom `CODEX_HOME`, place it in `skills/logo-concept-lab` under that directory. If a skill with this name already exists, compare its contents before replacing it.
+## 构思与品牌表达 / Concepts and brand expression
 
-也可以直接克隆到尚不存在的目标目录：
+本轮进一步精简主入口，新增 [构思筛选与视觉评审](references/concept-review.md)：先筛掉缺乏形式潜力的通用联想，参考在出图前和出图后都参与判断，首轮保留造型探索空间，选定后才加强细节约束。遮住说明评审性格，并保留影响决定的淘汰记录。既定造型与局部修改不重新发散；这些方法调整尚不等于新一轮视觉效果已经提升。
 
-Alternatively, clone directly into a destination that does not already exist:
+The entrypoint is now shorter, with [concept screening and visual review](references/concept-review.md) available when needed. Screen weak generic associations, compare references before and after generation, leave formal exploration open initially, and constrain details during selected refinement. Judge visible character without explanatory prose and retain consequential rejection evidence. Specified forms and local edits do not reopen exploration; these method changes do not establish a new visual improvement.
 
-```sh
-git clone https://github.com/AIGC-Xavier/logo-concept-skill.git ~/.codex/skills/logo-concept-lab
-```
+[品牌表达与系统延展](references/brand-expression.md)涵盖科技抽象构形、情绪到形态的转译，以及角色与标识的身份一致性。根据实际任务选择方法：科技品牌可以探索结构与协作关系，情绪表达可以通过比例、轮廓和节奏呈现。设计假设需通过实际成图与应用检查验证。
 
-在支持本地 `SKILL.md` 的其他 Agent 中，按相应产品的技能目录约定安装。
+[Brand expression and system extensions](references/brand-expression.md) covers technology abstraction, translating emotion into form, and maintaining identity across marks and characters. Choose methods for the task: technology brands can explore structural and collaborative relationships, while emotional expression can emerge through proportion, contour, and rhythm. Test design hypotheses against actual artwork and applications.
 
-For other agents that support local `SKILL.md` files, follow that product’s skill-directory conventions.
+## 安装 / Installation
 
-## 使用示例 / Example prompts
+复制整个目录，保留 `SKILL.md` 和 `references/`，放到当前环境的技能目录。本机已有安装路径为 `~/.codex/skills/logo-concept-lab/`；若使用自定义 `CODEX_HOME`，沿用对应的 `skills/` 位置。
 
-```text
-使用 $logo-concept-lab，根据品牌官网与这些参考，为品牌做一轮 Logo 构思。
-重点找共用轮廓和负形关系，把值得保留的方向放入指定 Figma 文件。
-```
+Copy the entire folder, retaining `SKILL.md` and `references/`, into your environment's skill directory. This installation uses `~/.codex/skills/logo-concept-lab/`; preserve the equivalent `skills/` location for a custom `CODEX_HOME`.
 
-```text
-Use $logo-concept-lab to develop logo concepts from the brand website and these references.
-Focus on shared contours and negative space, and place the strongest directions in the specified Figma file.
-```
+已有安装先备份、比较差异再合并；本次仓库包不包含本机额外安装的检查与导出工具。若已有 `scripts/`、`templates/`、`tests/` 和相关工具说明，保留这些文件及入口中的工具链接，不要用仓库包整目录删除替换。
+
+Back up and compare an existing installation before merging. This repository does not bundle the additional local checking and export tools. Preserve existing `scripts/`, `templates/`, `tests/`, tool references, and entrypoint links rather than deleting the installed folder during replacement.
+
+## 调用示例 / Example requests
+
+每个展示版本后附简短释义，说明形式选择、结合的元素或关系、品牌依据与待改进处。先看图再解释，释义置于图外并以实际成图为准；局部修改版说明变化与保留项。用户明确要求不解释时不附释义。
+
+Each presented version is followed by a concise rationale covering form, combined elements or relationships, brand fit, and remaining issues. Explain the actual image outside the artwork; local revisions describe changes and preserved elements. Omit explanations when explicitly requested.
 
 ```text
-使用 $logo-concept-lab，以 L、X 两个字母做一轮图形测试。
-不要另外展示文字、标题或编号；只比较黑白图形。
+使用 $logo-concept-lab，为“间物 / INTERFORM”家具品牌探索两种字标方向。
+中文为主，安静、有辨识度；从字腔与比例做设计，不画家具图标。
+先看核心标识，再判断是否需要双语组合。
 ```
 
 ```text
-Use $logo-concept-lab to explore symbols built from the letters L and X.
-Do not add wordmarks, titles, or numbers; compare only black-and-white symbols.
+Use $logo-concept-lab for “RIFF CLUB”, a playful music community.
+Explore characterful lettering or an organic mark rather than a corporate technology symbol.
+Compare the core identities before developing applications.
 ```
 
 ```text
-使用 $logo-concept-lab，检查现有方案为什么缺少设计感。
-保留已选方向，调整交叉关系和视觉重心，不要重新扩展整套品牌。
+使用 $logo-concept-lab，只用 L、X 两个字母做三种纯黑图形。
+不要标题、编号、品牌全称；保留字母识读，改变真正的结构关系。
 ```
 
 ```text
-Use $logo-concept-lab to examine why the current design lacks visual quality.
-Preserve the selected direction, refine intersections and optical balance, and do not expand the task into a complete brand system.
+Use $logo-concept-lab to refine the selected logo's optical spacing.
+Keep the approved font and letterforms; deliver the requested transparent PNG.
 ```
 
-## 负形与双重含义 / Negative space and double meanings
+## 文件导航 / File guide
 
-三个随机虚拟命题，重点比较同一条边界怎样承担两层含义。以下按从左到右阅读。
+- [SKILL.md](SKILL.md)：主流程 / Main workflow.
+- [references/minimal-design.md](references/minimal-design.md)：形式选择、字标和双语关系 / Form, lettering, and bilingual relationships.
+- [references/concept-review.md](references/concept-review.md)：构思淘汰、参考对照、提示词约束时机与失败记录 / Concept screening, reference comparison, prompt specificity, and iteration evidence.
+- [references/brand-expression.md](references/brand-expression.md)：科技抽象、情绪转译与按需延展 / Technology abstraction, emotional expression, and optional extensions.
+- [references/construction.md](references/construction.md)：可选共形、负空间与字母构形 / Optional shared-contour, negative-space, and monogram methods.
+- [references/delivery.md](references/delivery.md)：选定方向的矢量重建与 Figma 核对 / Vector reconstruction and Figma verification.
 
-Three fictional briefs explore how one boundary can carry two meanings. Read the examples from left to right.
+## 历史练习 / Historical studies
 
-![引号与猫头鹰、门洞与箭头、火焰与狐狸 / Quotes and owl, doorway and arrow, flame and fox](examples-negative-space.png)
+[旧 LX 构形测试](examples-lx.png)与[旧负空间测试](examples-negative-space.png)保留为历史记录，不作为新版的审美标准或效果证明。它们分别体现旧版的字母融合与双重含义探索，也反映了本次需要突破的形式范围。
 
-| 命题 / Brief | 机制 / Mechanism | 观察与下一步 / Observation and next step |
-| --- | --- | --- |
-| 表达与知识 / Expression and knowledge | 引号形的眼窝与猫头鹰面部相互组织。Quote-shaped eye spaces organize an owl-like mask. | 猫头鹰识别较强，引号还可进一步明确。The owl reads strongly; the quotation-mark reading could be clearer. |
-| 空间与成长 / Space and growth | 门洞两侧的共用边界留下向上箭头。The sides of a doorway share the edges of an upward arrow. | 容易识别，但几何组合较常见，应继续探索独特比例。Easy to recognize, but a familiar geometric combination; explore more distinctive proportions. |
-| 灵敏与能量 / Agility and energy | 火焰状外轮廓内部出现狐狸侧脸，共用耳尖、额头与颈部曲线。A flame-like outer contour reveals a fox profile through shared ear, forehead, and neck curves. | 双重含义较完整；缩小时需检查顶部窄缝与尖角。The double reading is more complete; check narrow gaps and points at small sizes. |
+The [earlier LX study](examples-lx.png) and [negative-space study](examples-negative-space.png) remain historical records, not visual benchmarks or evidence for this revision. They show the previous emphasis on monogram fusion and double readings, whose limited formal range this revision addresses.
 
-这组三款是 AI 辅助位图构思测试，未经用户最终选定，不是可直接交付的矢量标志。案例用于说明方法与取舍，不代表所有方向都应进入最终方案。后续仍需重建路径、调整光学平衡并验证应用尺寸。
+## 工具与交付 / Tools and delivery
 
-These three marks are AI-assisted raster concept tests, not user-approved final selections or production-ready vector logos. They illustrate methods and tradeoffs rather than imply that every direction deserves final selection. Further work should rebuild paths, refine optical balance, and verify application sizes.
+仓库提供方法指令，不附带图像生成服务或 Figma 连接器。可用时按任务调用；无编辑工具时交付本地文件并明确未同步。概念图、可编辑矢量、生产样与获批最终稿是不同交付状态。
 
-## LX 构形测试示例 / LX construction study
-
-![LX 六方向构思测试 / Six LX concept explorations](examples-lx.png)
-
-示例为探索稿，用于展示构形比较与纯图形排版；不代表已定稿、生产验证或商标近似检索结论。
-
-LX 示例展示六种字母构形：共笔几何、折带连结、负形方章、时装交织、柔性连笔、斜切构造。预览来自已重建矢量的 Figma 测试画板。
-
-The LX example compares six constructions: shared-stroke geometry, folded connections, a negative-space tile, fashion-style interweaving, a soft ligature, and diagonal modules. The preview was exported from a Figma study with rebuilt vector paths.
-
-This exploratory study demonstrates construction comparison and symbol-only presentation. It is not an approved final identity, production validation, or trademark similarity-search result.
-
-## 工具与范围 / Tools and scope
-
-skill 本身是方法指令，不附带 Figma 连接器或图像生成服务。相关工具可用且用户任务需要时再使用；没有 Figma 编辑工具时，应交付本地文件并说明尚未同步。
-
-The skill provides workflow instructions, not a Figma connector or image-generation service. Use those tools only when available and relevant to the request. Without Figma editing tools, deliver local files and clearly state that they have not been synchronized.
-
-仓库发布的是本次工作中整理的方法与测试示例，不包含参考视频、视频截图、客户官网资料或私人 Figma 地址。
-
-The repository contains the methods and test examples developed during this work. It does not include reference videos, video screenshots, client website material, or private Figma links.
+The repository provides instructions, not image-generation services or Figma connectors. Use available tools as the task requires; without editing tools, deliver local files and report that synchronization has not occurred. Concept images, editable vectors, production proofs, and approved final identities are distinct states.
