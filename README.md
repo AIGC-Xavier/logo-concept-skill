@@ -87,6 +87,30 @@ Keep the approved font and letterforms; deliver the requested transparent PNG.
 - [references/construction.md](references/construction.md)：可选共形、负空间与字母构形 / Optional shared-contour, negative-space, and monogram methods.
 - [references/delivery.md](references/delivery.md)：选定方向的矢量重建与 Figma 核对 / Vector reconstruction and Figma verification.
 
+## 最新测试案例 / Recent test case
+
+**合序 / SYNORA · AI 协作品牌**：以虚构品牌测试字母构形、定制字标、共享空间和有机形态四种方向，并保留首轮探索与定向精修过程。每版均附设计理由、组合元素与当前判断。
+
+**SYNORA · AI collaboration brand:** a fictional brief explored through four directions—letterform, custom wordmark, shared space, and organic form—with the initial exploration and refinement retained. Every version includes a rationale, its visible elements, and a review.
+
+![B · 协作字标 / Collaborative wordmark](examples/synora/b-collaborative-wordmark.png)
+
+B 将名称本身作为识别主体，通过相邻笔画衔接表达协作；连接处的读名表现仍需验证。
+
+B makes the name the primary identity, expressing collaboration through connected strokes; legibility at the joins still needs testing.
+
+![D · 柔性智能 / Adaptive intelligence](examples/synora/d-adaptive-intelligence.png)
+
+D 将非对称有机轮廓与开放负空间结合，探索亲和、灵活的科技气质；小尺寸下的细处仍需验证。
+
+D combines an asymmetric organic contour with open negative space to explore an approachable, adaptive character; narrow areas still need small-size testing.
+
+[查看全部 6 张测试图、逐版释义与验证说明 / View all six images, rationales, and validation notes](examples/synora/README.md)
+
+这些图为 v3 流程生成的位图概念，释义后续补充；尚未完成矢量重建或生产验证。
+
+These raster concepts were generated with the v3 workflow, with rationales added afterward. Vector reconstruction and production validation are not complete.
+
 ## 历史练习 / Historical studies
 
 [旧 LX 构形测试](examples-lx.png)与[旧负空间测试](examples-negative-space.png)保留为历史记录，不作为新版的审美标准或效果证明。它们分别体现旧版的字母融合与双重含义探索，也反映了本次需要突破的形式范围。
