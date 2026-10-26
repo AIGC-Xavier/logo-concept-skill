@@ -32,9 +32,9 @@ For new concepts, establish the recognition source, visible structure, brand rea
 
 ## 构思与品牌表达 / Concepts and brand expression
 
-本轮进一步精简主入口，新增 [构思筛选与视觉评审](references/concept-review.md)：先筛掉缺乏形式潜力的通用联想，参考在出图前和出图后都参与判断，首轮保留造型探索空间，选定后才加强细节约束。遮住说明评审性格，并保留影响决定的淘汰记录。既定造型与局部修改不重新发散；这些方法调整尚不等于新一轮视觉效果已经提升。
+更新后的流程依次校准参考、探索视觉方向、筛选实际成图并做有限精修。有已认可参考时记录可见的比例、轮廓、负空间或字体目标；没有时根据现有品牌资料设定暂定目标。新形态未指定 SVG 时按任务选图像或草图路线，图像生成、几何和现成字体均按需使用。默认推荐 2–3 个有可见依据的方向，用户要求数量优先；默认字体普通排字与通用图标可保留为探索。精修记录目标与实际变化，每版附释义并区分探索、精修和推荐。详见[构思与视觉评审](references/concept-review.md)与[形式与字标](references/minimal-design.md)。这些方法调整本身不证明新一轮视觉效果已提升。
 
-The entrypoint is now shorter, with [concept screening and visual review](references/concept-review.md) available when needed. Screen weak generic associations, compare references before and after generation, leave formal exploration open initially, and constrain details during selected refinement. Judge visible character without explanatory prose and retain consequential rejection evidence. Specified forms and local edits do not reopen exploration; these method changes do not establish a new visual improvement.
+The updated workflow calibrates references, explores visual directions, screens actual artwork, and applies finite targeted refinement. When approved references exist, record visible targets in proportion, contour, negative space, or type; otherwise derive provisional targets from the supplied brand material. Without an explicit SVG request, choose image or sketch exploration as appropriate; image generation, geometry, and existing fonts are all optional methods. Normally recommend 2–3 directions with visible evidence and follow the user's requested count; default-font typesetting and generic icons may remain explorations. Record each refinement target and actual change, explain every presented version, and distinguish explorations, refinements, and recommendations. See [concept screening and visual review](references/concept-review.md) and [form and lettering](references/minimal-design.md). These method changes alone do not prove improved visual results.
 
 [品牌表达与系统延展](references/brand-expression.md)涵盖科技抽象构形、情绪到形态的转译，以及角色与标识的身份一致性。根据实际任务选择方法：科技品牌可以探索结构与协作关系，情绪表达可以通过比例、轮廓和节奏呈现。设计假设需通过实际成图与应用检查验证。
 
@@ -87,7 +87,23 @@ Keep the approved font and letterforms; deliver the requested transparent PNG.
 - [references/construction.md](references/construction.md)：可选共形、负空间与字母构形 / Optional shared-contour, negative-space, and monogram methods.
 - [references/delivery.md](references/delivery.md)：选定方向的矢量重建与 Figma 核对 / Vector reconstruction and Figma verification.
 
-## 最新测试案例 / Recent test case
+## 最新测试案例 / Recent test cases
+
+### 培菁矩阵 · 大学机构 / University institution
+
+用同一机构名称测试视觉探索、筛选、中文与图形协调、有限精修，再追加左右对称的开放中心方向。保留初稿、未晋级稿与失败修改记录，避免把提示词意图当作实际完成。
+
+A university-institution case covering visual exploration, selection, lettering coherence, bounded refinement, and bilateral symmetry. Initial, rejected, and partially successful revisions remain visible.
+
+![培菁矩阵 · 对称精简探索](examples/peijing-matrix/s2-mirror-simplified.png)
+
+四块镜像笔画围出开放中心，中文居中排列；相较繁复的对称首轮，减少了重复带状层。当前为待选择的位图探索，尚未定稿或完成矢量与生产验证。
+
+Four mirrored strokes surround an open center with a centered wordmark. Repeated ribbon layers were removed from the first symmetric study. This remains an unapproved raster concept, without vector or production validation.
+
+[查看9张阶段图、每版释义与验证范围 / View nine stage images, rationales, and validation limits](examples/peijing-matrix/README.md)
+
+### 合序 / SYNORA
 
 **合序 / SYNORA · AI 协作品牌**：以虚构品牌测试字母构形、定制字标、共享空间和有机形态四种方向，并保留首轮探索与定向精修过程。每版均附设计理由、组合元素与当前判断。
 

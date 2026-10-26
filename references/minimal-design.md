@@ -54,9 +54,9 @@ When several conspicuous treatments compete or require explanation, reduce the s
 
 For a first-round concept, state its source of recognition, intended structural relationship, and brand rationale. Keep this at the direction level; do not prescribe specific geometry such as silhouette, proportions, or angles in advance unless the user specifies them. Once a direction is selected or approved by the user, refine the observed issue locally. A structural alternative changes the source of recognition or a key relationship; a style variant keeps the recognition mechanism and changes type treatment, color, or similar expression. Honor explicitly requested type or color variants, subject to constraints such as “do not change the font.” Treat an auxiliary symbol added to or removed from the same wordmark as a lockup variant; assess it as another concept only when the primary recognition relationship genuinely changes. See the [concept review reference](concept-review.md) for the full comparison process.
 
-参考图应先实际查看，再选取少量与品牌相关的特征进行转译，并在出图后回看与参考的关系，确认没有沿用其可识别轮廓或组合版。按需参考即可，不要求每次搜索新参考或制作大型情绪板。
+有少量已认可参考时，先实际查看，再选取少量与品牌相关的特征进行转译；对第三方参考，出图后核对是否沿用了可识别轮廓或组合版。用户自有既定标志按保留要求精修。没有已认可参考时，可从现有品牌资料与资产建立暂定视觉目标，并说明这是设计判断。按需参考即可，不要求每次另行搜索或制作大型情绪板。
 
-View a reference before using it. Select a few relevant features to translate, then compare the generated result with the reference to check that its recognizable silhouette or lockup has not been reused. Use references as needed; do not require a new reference search or a large mood board for every task.
+When a small set of approved references is available, inspect it and translate only a few relevant features; for third-party references, check that the recognizable silhouette or lockup was not reused. Refine user-owned established marks within their preservation requirements. If there is no approved reference, derive provisional visual targets from existing brand material and label them as design judgment. Use references as needed; do not require a new search or large mood board for every task.
 
 ## 选定字标时：从结构开始 / For wordmarks: begin with structure
 
@@ -64,16 +64,22 @@ View a reference before using it. Select a few relevant features to translate, t
 
 Let the brand need determine how much customization is appropriate. Do not call an unchanged font a custom wordmark, and do not distort letters just to appear distinctive. A new wordmark should implement concrete decisions in letterform, proportion, or inter-letter relationships; unchanged typesetting is not evidence of completed lettering design. Separate font-pairing tasks are an exception.
 
+准确区分三种工作：**字体搭配**是选择现成字体及其层级，字形保持原样；**定制排版**是调整现成字形的比例、位置、间距或组合关系，不等于重绘字形；**原创字形设计**会绘制或修改字骨、关键笔画、端点、字腔等实际结构。三者都可符合需求，但交付时按实际完成程度命名，不把排版称作原创字形。生成图里的中文字若不准确，先标为探索并校正字符，不能由释义替它通过。
+
+Distinguish three kinds of work accurately: **font pairing** selects existing type and hierarchy while leaving glyphs unchanged; **custom typesetting** adjusts the scale, placement, spacing, or arrangement of existing glyphs without redrawing them; **original lettering** draws or changes actual structures such as skeletons, defining strokes, terminals, or counters. Any may fit the brief, but describe what was done rather than calling typesetting original lettering. If Chinese text in a generated image is inaccurate, label it as exploration and correct the characters before it can pass review.
+
 ### 中文结构 / Chinese structure
 
 - 先确认每个字不可丢失的骨架、偏旁关系、主笔、字内空间和阅读路径；保留准确字符与词义。
 - 比较字面比例、横竖关系、重心、字距，以及相邻汉字如何形成节奏或共用视觉轴线。
 - 安静描述的是视觉噪声，不是识别力度或改造幅度。可通过明确的比例、间距、轮廓或字间关系建立鲜明识别，同时保留可读骨架；按品牌需要决定结构改动。
+- 图形与中文字并置时，比较各自的视觉重量、字高、笔重、基线、字距、间隔和负空间；检查对齐与留白能否形成整体关系，同时不挤压、遮断或改变准确字形。
 - 每个方向记录核心结构判断，避免所有字都套用相同圆角、粗度或方块轮廓。
 
 - Identify the essential skeleton, component relationships, defining strokes, internal spaces, and reading path of each character. Preserve the exact characters and meaning.
 - Compare glyph proportions, horizontal and vertical strokes, visual center, spacing, and the rhythm or shared axis between adjacent characters.
 - Quietness describes visual noise, not identity strength or the degree of change. Clear proportions, spacing, contours, or inter-letter relationships can create a strong identity while preserving a readable skeleton; choose structural changes for the brand’s needs.
+- When a mark sits beside Chinese lettering, compare visual weight, character height, stroke weight, baseline, spacing, intervals, and negative space. Check that alignment and whitespace form a coherent lockup without crowding, obscuring, or changing the exact characters.
 - Record the structural idea for each direction. Do not force every character into the same rounded, heavy, or square treatment.
 
 ### 拉丁字母结构 / Latin letter structure
